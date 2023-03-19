@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "itemsadder",
+  "version": "${version}",
+
+  "name": "ItemsAdder Mod",
+  "description": "This is a mod that adds new items to Minecraft !",
+  "authors": [
+    "Armen0"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/itemsadder/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.armeno.itemsadder.ItemsAdderMod"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
